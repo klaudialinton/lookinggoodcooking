@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<title>LOOKING GOOD COOKING</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("panggang.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#home" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a> 
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#feedback" class="w3-button w3-block w3-black">FEEDBACK</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">LOOKING<br>GOOD<br>COOKING</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag">We are preparing the Good Local and Western Foods for our customer who's looking for good cooking.</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large">
+
+<!-- About Container -->
+
+
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">LOOKING FOR GOOD COOKING FOOD?</span></h5>
+	<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">LOOKING GOOD COOKING ARE READY FOR THE SERVING!!</span></h5>
+	<div class=" w3-centre w3-large">
+   <div class="w3-content" style="max-width:700px">	
+    <img src="amari-johor-bahru-alexisjetsets-33-e1523955348591.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>OPENING HOURS:</strong>EVERYDAY 1030AM - 1100PM</p>
+    <p><strong>ADDRESS:</strong>LOOKING GOOD COOKING, NO18 JALAN RUSA, TAMAN TUNKU, 98000 MIRI ,SARAWAK.</p>
+  </div>
+    <!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT LOOKING GOOD COOKING</span></h5>
+	<img src="chef.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Looking Good Cooking (LGC) was opened on 2nd January 2020 with the goal of serving some local and western cuisines. With these setting of foods in the menu, its will makes our guests can tastes the deliciousness of the local and western meals. The ideas of the menus came from when Johnny went to Italy for his holiday trip, even though he was there for a week, he suddenly missed the local cuisines. So, after he went back home to Malaysia, Johnny got an idea to make a small business of cuisine restaurant. He put on local and western cuisine on the LGC menu.</p>
+    <p>The ideas of the menus came from when Johnny went to Italy for his holiday trip, even though he was there for a week, he suddenly missed the local cuisines. </p>
+	<p>So, after he went back home to Malaysia, Johnny got an idea to make a small business of cuisine restaurant. He put on local and western cuisine on the LGC menu. </p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"The menus are ready prepared for everyone, and I'll happy to help create the perfect meals experience for every guest who came to the Looking Good Cooking."</i></p>
+      <p>- Johnny Cenna , The CEO of LGC -</p>
+ 
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+	<div class="w3-row w3-center  w3-padding">
+    
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Local');" id="myLink">
+        <div class="w3-col s6 tablink">Local</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Western');">
+        <div class="w3-col s6 tablink">Western</div>
+      </a>
+   <div id="Local" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Nasi Lemak</h5>
+	  <img src="shutterstock_648976399.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM8.50</p><br>
+    
+      <h5>Nasi Goreng</h5>
+	  <img src="New Sajian Warisan Miri 1.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM8.50</p><br>
+    
+      <h5>Laksa Sarawak</h5>
+	  <img src="23436105726_f1756c976a_b.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM5.50</p><br>
+    
+      <h5>Mi Kolok</h5>
+	  <img src="IMG_7699-copy.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">Rm4.50</p><br>
+    
+      <h5>Satay Ayam</h5>
+	  <img src="satay-ayam-50476539.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM1.00/per stick</p>
+	  <p class="w3-text-grey">RM5.00/6 sticks</p>
+	  <p class="w3-text-grey">RM10.00/13 sticks</p>
+    </div> 
+    <div id="Western" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Italian Spaghetti</h5>
+	  <img src="Spaghetti.jpeg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM9.00</p><br>
+    
+      <h5>Black Paper Chicken Chop</h5>
+	  <img src="Edited-Post-2.jpeg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM12.00</p><br>
+    
+      <h5>Crispy Chicken Chop</h5>
+	  <img src="crispy.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM10.00</p><br>
+    
+      <h5>Fish and Chip</h5>
+	  <img src="Fish-Chips-400x400.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM10.00</p><br>
+    
+      <h5>Grilled Beef Burger</h5>
+	  <img src="food accueil.jpg" style="width:80%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM10.00</p>
+    </div>  
+	
+  </div>
+</div>
+
+<!-- Drinks -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE DRINKS</span></h5>
+	<div class="w3-row w3-center  w3-padding">
+    
+  
+      <h5>3 Layer Tea</h5>
+	  <img src="00f49dc2-b92d-49d4-8f9b-60d07fdcb0b4_x300.jpg" style="width:50%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM4.50</p><br>
+    
+      <h5>Watermelon Juice</h5>
+	  <img src="25681_watermelon_soju_cocktail.jpg" style="width:50%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM3.50</p><br>
+    
+      <h5>Lemonade Juice</h5>
+	  <img src="Spiked-Lemonade_EXPS_THSUM18_37199_D02_01_8b.jpg" style="width:50%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM3.50</p><br>
+    
+      <h5>Coconut Juice</h5>
+	  <img src="file-20190923-23784-1ivpi9f.jpg" style="width:50%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM3.50</p><br>
+    
+      <h5>Espresso Macchiato Coffee</h5>
+	  <img src="caramel-macchiato_830x550.jpg" style="width:50%;max-width:1000px" class="w3-margin-top">
+      <p class="w3-text-grey">RM4.00</p>
+	  
+	   <h5>Espresso Latte Coffee</h5>
+	  <img src="0_coffeehouse.jpg" style="width:50%;max-width:1000px" class="w3-margin-top">
+	  <p class="w3-text-grey">RM4.00</p>
+	  
+	    <h5>Soft Drink</h5>
+	  <img src="Soft-drink-health-concerns-not-yet-trickled-down-into-social-media-users-mentions-of-brands_wrbm_large.jpg" style="width:50%;max-width:1000px" class="w3-margin-top">
+	  <p class="w3-text-grey">(Pepsi, Coca Cola, Fanta Orange & Sprite)</p>
+	  <p class="w3-text-grey">RM2.00</p>
+   
+	</div>
+	</div> </div>
+
+</div>
+
+<!-- Feedback -->
+<div class="w3-container" id="feedback" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+ <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">FEEDBACK</span></h5>
+    <p><span class="w3-tag">ATTENTION FOR OUR BELOVED CUSTOMER!</span> We love to receive some reviews from our customer about the GOOD LOOKING COOKING services. Please make your review here! </p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="CUSTOMER'S NAME" required name="NAME"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="DATE & TIME" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="YOUR MESSAGES/COMPLAINS/OPINIONS" required name="REVIEW"></p>
+      <p><button class="w3-button w3-black" type="submit">SUBMIT</button> </p>
+	  <p> THANK YOU FOR THE REVIEWS! </p>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-grey w3-padding-28 w3-small">
+  <p>LOOKING GOOD COOKING SDN. BHD.</p>
+<p>NO 18 JALAN RUSA, TAMAN TUNKU </p>
+<p>98000 MIRI, SARAWAK, MALAYSIA. </p>
+<p>EMAIL: lcg123@gmail.com </p>
+<p>TEL: 019-9988774 </p>
+ 
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
